@@ -75,6 +75,7 @@ public class Enemy extends Creature {
 				
 		Random enemyMovement = new Random();
 		int random = enemyMovement.nextInt(4);
+		System.out.println(random);
 		
 		switch(random) {
 			case 0: e_xMove = speed / 3;

@@ -7,8 +7,4 @@ public class HouseWall extends Tile {
 	public HouseWall(int id) {
 		super(Assets.houseWall, id);
 	}
-	
-	public boolean isSolid() {
-		return true;
-	}
 }
